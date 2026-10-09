@@ -12,7 +12,7 @@ unattended and come with measured results.
 |---|---|---|
 | [Durable Agent Harness](https://github.com/mattthomas7641/durable-agent-harness) | Runs AI coding agents for hours: resumes after a crash, sandboxes every action, keeps a tamper-evident audit log | 74 tests · 92% branch coverage · `mypy --strict` |
 | [Flight Telemetry Pipeline](https://github.com/mattthomas7641/flight-telemetry-pipeline) | Ingests aircraft sensor data, governs it into an S3 data lake, pages on safety thresholds | 420k samples/s · 166 ms to page · 93% coverage |
-| [Saved Video Intelligence](https://github.com/mattthomas7641/saved-video-intelligence) | Turns thousands of saved TikToks into a searchable, AI-analyzed library | $0.0014/video · 7,000+ videos per run · CI |
+| [Saved Video Intelligence](https://github.com/mattthomas7641/saved-video-intelligence) | Share a TikTok to Telegram and a Claude research agent follows up (vets GitHub repos, traces news, finds places); also turns thousands of saved TikToks into a searchable, AI-analyzed library | $0.0014/video bulk · 7,000+ videos per run · 117 tests |
 | [LLM Inference Gateway](https://github.com/mattthomas7641/llm-inference-gateway) | One OpenAI-compatible API for several open models, with dynamic batching | 5× throughput · p50/p95/p99 metrics |
 | [Ticket Price Monitor](https://github.com/mattthomas7641/ticket-price-monitor) | Tracks resale ticket prices across vendors and pushes price-drop alerts | Every 10 min on GitHub Actions · 105 tests |
 | [Newsletter-to-Video Pipeline](https://github.com/mattthomas7641/newsletter-video-pipeline) | Turns the TLDR newsletters into 40-second animated explainer Shorts: Claude writes the scripts, a local AI voice and a lip-synced avatar present them, and they upload to YouTube automatically | Writes, renders and uploads every morning |
@@ -23,7 +23,7 @@ unattended and come with measured results.
 
 ### Toolkit
 
-**AI:** Claude API (structured outputs, Batch API), agent harnesses, MCP, Whisper, OCR, LLM serving and batching
+**AI:** Claude API (structured outputs, tool use, web search, Batch API), agent harnesses, MCP, Whisper, OCR, LLM serving and batching
 **Data:** SQL, Python (pandas), Parquet, Redis Streams, Tableau, ETL and data governance
 **Engineering:** FastAPI, Pydantic, pytest, mypy, Docker, Kubernetes, Terraform, GitHub Actions
 **Cloud:** AWS (S3, KMS, IAM, Lambda, DynamoDB, API Gateway) · AWS Certified Cloud Practitioner
