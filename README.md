@@ -15,7 +15,7 @@ unattended and come with measured results.
 | [Saved Video Intelligence](https://github.com/mattthomas7641/saved-video-intelligence) | Turns thousands of saved TikToks into a searchable, AI-analyzed library | $0.0014/video · 7,000+ videos per run · CI |
 | [LLM Inference Gateway](https://github.com/mattthomas7641/llm-inference-gateway) | One OpenAI-compatible API for several open models, with dynamic batching | 5× throughput · p50/p95/p99 metrics |
 | [Ticket Price Monitor](https://github.com/mattthomas7641/ticket-price-monitor) | Tracks resale ticket prices across vendors and pushes price-drop alerts | Every 10 min on GitHub Actions · 105 tests |
-| [Newsletter-to-Video Pipeline](https://github.com/mattthomas7641/newsletter-video-pipeline) | Turns daily newsletters into a narrated short-form video with an LLM-written script | Renders unattended every morning |
+| [Newsletter-to-Video Pipeline](https://github.com/mattthomas7641/newsletter-video-pipeline) | Turns daily newsletters into a narrated short-form video with an LLM-written script that is posted directly to Youtube Shorts | Renders unattended every morning |
 
 **Web:** [Auction Draft Board](https://mattthomas7641.github.io/auction-draft-board/) ·
 [Stretch Finder](https://mattthomas7641.github.io/stretch-finder/) ·
