@@ -1,8 +1,10 @@
 # Matthew Thomas
 
 Technology consultant at Protiviti, building **AI systems and operational data tools**.
-I turn messy operational data into tools people use, and I build AI pipelines that run
-unattended and come with measured results.
+At work I run **Workday security reviews** for enterprise clients (thousands of users,
+hundreds of security groups, tens of thousands of access risks per review) and build the
+**Workday banking and HR integrations** that move their money and people data.
+On my own time I build AI agents that run unattended and come with measured results.
 
 **Portfolio:** [mattthomas7641.github.io](https://mattthomas7641.github.io) · Philadelphia, PA
 
