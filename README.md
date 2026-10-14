@@ -1,4 +1,4 @@
-# Matthew Thomas
+# Matt Thomas
 
 Technology consultant at Protiviti, building **AI systems and operational data tools**.
 At work I run **Workday security reviews** for enterprise clients (thousands of users,
