@@ -10,15 +10,15 @@ unattended and come with measured results.
 
 | Project | What it does | Results |
 |---|---|---|
-| [Northstar (Personal Finance Agent)](https://github.com/mattthomas7641/personal-finance-agent) | Personal finance agent over my own bank data (Plaid/CSV): answers questions with numbers verified against the data, tracks 401(k) max-out pace and goals, builds a budget plan; privacy redaction before every API call; works on my phone offline | 20/20 eval questions correct and verified · $0.03/question · 96% auto-categorization |
-| [Sidequest (Saved Video Intelligence)](https://github.com/mattthomas7641/saved-video-intelligence) | Share a TikTok to Telegram and a Claude research agent follows up (vets GitHub repos, traces news, finds places); also turns thousands of saved TikToks into a searchable, AI-analyzed library | $0.0014/video bulk · 7,000+ videos per run · 117 tests |
+| [Northstar (Personal Finance Agent)](https://github.com/mattthomas7641/personal-finance-agent) | Personal finance agent over my own bank data (Plaid/CSV): answers questions with numbers verified against the data, plans for retirement (401(k) max-out pace, retirement and savings goals) and builds a budget plan; privacy redaction before every API call; works on my phone offline | 20/20 eval questions correct and verified · $0.03/question · 96% auto-categorization |
+| [Sidequest (Saved Video Intelligence)](https://github.com/mattthomas7641/saved-video-intelligence) | Send it anything (a TikTok, an Instagram Reel, a link or a screenshot) and a research agent follows up, checks new tools and agent skills against my own projects, and puts a clear next step on my to-do list | $0.01–0.03 per item · works from any app's share sheet · 117 tests |
 | [ByteSize News (Newsletter-to-Video Pipeline)](https://github.com/mattthomas7641/newsletter-video-pipeline) | Turns the TLDR newsletters into 40-second animated explainer Shorts: Claude writes the scripts, a local AI voice and a lip-synced avatar present them, and they upload to YouTube automatically | Writes, renders and uploads every morning |
 
 ### Toolkit
 
-**AI:** Claude API (structured outputs, tool use, web search, Batch API), agent harnesses, MCP, Whisper, OCR, LLM serving and batching
-**Data:** SQL, Python (pandas), Parquet, Redis Streams, Tableau, ETL and data governance
-**Engineering:** FastAPI, Pydantic, pytest, mypy, Docker, Kubernetes, Terraform, GitHub Actions
-**Cloud:** AWS (S3, KMS, IAM, Lambda, DynamoDB, API Gateway) · AWS Certified Cloud Practitioner
+**AI:** Claude API (structured outputs, tool use, web search, Batch API), Gemini API, Whisper, OCR
+**Data:** SQL, Python, SQLite, Tableau, ETL pipelines
+**Engineering:** FastAPI, Pydantic, pytest, Docker, GitHub Actions
+**Certified:** AWS Certified Cloud Practitioner
 
 Temple University, Fox School of Business · BBA, Management Information Systems (major GPA 3.97)
