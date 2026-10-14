@@ -10,16 +10,9 @@ unattended and come with measured results.
 
 | Project | What it does | Results |
 |---|---|---|
-| [Durable Agent Harness](https://github.com/mattthomas7641/durable-agent-harness) | Runs AI coding agents for hours: resumes after a crash, sandboxes every action, keeps a tamper-evident audit log | 74 tests · 92% branch coverage · `mypy --strict` |
-| [Flight Telemetry Pipeline](https://github.com/mattthomas7641/flight-telemetry-pipeline) | Ingests aircraft sensor data, governs it into an S3 data lake, pages on safety thresholds | 420k samples/s · 166 ms to page · 93% coverage |
-| [Saved Video Intelligence](https://github.com/mattthomas7641/saved-video-intelligence) | Share a TikTok to Telegram and a Claude research agent follows up (vets GitHub repos, traces news, finds places); also turns thousands of saved TikToks into a searchable, AI-analyzed library | $0.0014/video bulk · 7,000+ videos per run · 117 tests |
-| [LLM Inference Gateway](https://github.com/mattthomas7641/llm-inference-gateway) | One OpenAI-compatible API for several open models, with dynamic batching | 5× throughput · p50/p95/p99 metrics |
-| [Ticket Price Monitor](https://github.com/mattthomas7641/ticket-price-monitor) | Tracks resale ticket prices across vendors and pushes price-drop alerts | Every 10 min on GitHub Actions · 105 tests |
+| [ledger-agent](https://github.com/mattthomas7641/ledger-agent) | Personal finance agent over my own bank data (Plaid/CSV): answers questions with numbers verified against the data, tracks 401(k) max-out pace and goals, builds a budget plan; privacy redaction before every API call; works on my phone offline | 7/7 planted hallucinated numbers caught · 100 tests |
+| [Sidequest (Saved Video Intelligence)](https://github.com/mattthomas7641/saved-video-intelligence) | Share a TikTok to Telegram and a Claude research agent follows up (vets GitHub repos, traces news, finds places); also turns thousands of saved TikToks into a searchable, AI-analyzed library | $0.0014/video bulk · 7,000+ videos per run · 117 tests |
 | [Newsletter-to-Video Pipeline](https://github.com/mattthomas7641/newsletter-video-pipeline) | Turns the TLDR newsletters into 40-second animated explainer Shorts: Claude writes the scripts, a local AI voice and a lip-synced avatar present them, and they upload to YouTube automatically | Writes, renders and uploads every morning |
-
-**Web:** [Auction Draft Board](https://mattthomas7641.github.io/auction-draft-board/) ·
-[Stretch Finder](https://mattthomas7641.github.io/stretch-finder/) ·
-[Pine Valley Website Redesign](https://mattthomas7641.github.io/pine-valley-website-redesign/)
 
 ### Toolkit
 
